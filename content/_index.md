@@ -5,7 +5,7 @@ description: "Aplikasi Paito Warna BBFS Rumus Togel — Data Keluaran Togel Terl
 
 <div class="prose prose-blue max-w-none">
 
-  <!-- Hero Banner (Simulasi Iklan BO) -->
+  <!-- Hero Banner -->
   <div class="my-6 p-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg text-center shadow-lg">
     <h2 class="text-2xl font-bold">Daftar BO Terpercaya</h2>
     <p class="mt-2">Lux Togel • MVP Togel • Crown Togel • Oscar Togel</p>
@@ -119,9 +119,3 @@ description: "Aplikasi Paito Warna BBFS Rumus Togel — Data Keluaran Togel Terl
   </div>
 
 </div>
-
-<!-- Shortcodes Custom -->
-{{< /paito-item >}}
-{{< /master-card >}}
-{{< /live-draw >}}
-{{< /live-badge >}}
