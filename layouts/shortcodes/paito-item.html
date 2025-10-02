@@ -1,0 +1,13 @@
+<div class="flex justify-between items-center p-3 bg-white border rounded-lg shadow-sm">
+  <button class="px-3 py-1 bg-blue-600 text-white text-sm font-medium rounded hover:bg-blue-700">
+    {{ .Get "pasaran" }}
+  </button>
+  <div class="text-right">
+    <div class="flex space-x-1 mb-1">
+      {{ range split (.Get "angka") " " }}
+        <span class="w-8 h-8 flex items-center justify-center bg-purple-100 text-purple-800 font-bold rounded-full">{{ . }}</span>
+      {{ end }}
+    </div>
+    <small class="text-gray-500">{{ .Get "tanggal" }} - {{ .Get "waktu" }}</small>
+  </div>
+</div>
